@@ -5,6 +5,7 @@ import routes from './router';
 
 function App() {
   return (
+    <>
       <HashRouter>
         <Routes>
           {
@@ -12,8 +13,9 @@ function App() {
               <Route key={route.path} path={route.path} element={route.component} />
             ))
           }
-      </Routes>
-      </HashRouter>
+        </Routes>
+      </HashRouter></>
+
   );
 }
 
