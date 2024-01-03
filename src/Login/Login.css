@@ -1,10 +1,13 @@
 .container {
     width: 70vw;
-    display: flex;
+    /* display: flex; */
     margin: 0 auto;
     flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
+    justify-items: flex-startSS;
 }
+
 .text-primary {
     width: 100%;
     height: 68px;
@@ -14,6 +17,11 @@
     justify-content: center;
     text-align: center;
 }
+
+.btnBox {
+    width: 200px;
+}
+
 .lead {
     width: 100%;
     height: 30px;
@@ -24,6 +32,7 @@
     justify-content: center;
     text-align: center;
 }
+
 .form {
     width: 100%;
     display: flex;
@@ -33,6 +42,7 @@
     height: 150px;
     align-items: flex-start;
 }
+
 .form-group {
     width: 100%;
     height: 40px;
@@ -40,17 +50,20 @@
     justify-content: center;
     align-items: center;
 }
+
 .form-group input {
     width: 50%;
     height: 40px;
     border-radius: 10px;
     border: 1px solid #555353;
 }
+
 .my-1 {
-    width: 100%;
+    width: 75%;
     display: flex;
     justify-content: flex-end;
 }
+
 .btn-primary {
     width: 100px;
     height: 40px;

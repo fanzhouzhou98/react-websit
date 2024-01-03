@@ -5,12 +5,14 @@
     justify-content: center;
     background-color: #adbdf5;
 }
+
 .nav {
     width: 50%;
     height: 60px;
     display: flex;
     justify-content: flex-end;
 }
+
 .navItem {
     display: flex;
     width: 120px;

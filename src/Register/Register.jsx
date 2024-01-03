@@ -1,6 +1,5 @@
 import "./Register.css";
-import { Link } from "react-router-dom";
-import React, { useState } from "react";
+import React from "react";
 import PageHeader from '../Louty/Louty';
 
 function Register() {
@@ -10,7 +9,7 @@ function Register() {
       <section className="container">
         <h1 className="large text-primary">Sign Up</h1>
         <p className="lead"><i className="fas fa-user"></i> Create Your Account</p>
-        <form className="form1" action="create-profile.html">
+        <form className="form1">
           <div className="form-group">
             <input type="text" placeholder="Name" name="name" required />
           </div>
@@ -33,7 +32,9 @@ function Register() {
               minLength="6"
             />
           </div>
-          <input type="submit" className="btn btn-primary" value="Register" />
+          <div className="btnBox">
+            <input type="submit" className="btn" value="Register" />
+          </div>
         </form>
         <p className="my-1">
           Already have an account? <a href="login.html">Sign In</a>
