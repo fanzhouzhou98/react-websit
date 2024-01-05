@@ -1,17 +1,22 @@
-import List from "./List/List";
-import NameChange from "./nameChange/nameChange";
+import Register from "./Register/Register"
+import Dashboard from "./Dashboard/Dashboard"
+import Login from "./Login/Login"
 const routes = [
     {
         path: '/',
-        component: <List/>
+        component: <Login/>
     },
     {
-        path: '/List',
-        component: <List/>
+        path: '/login',
+        component: <Login/>
     },
     {
-        path: '/nameChange',
-        component: <NameChange/>
+        path: '/register',
+        component: <Register/>
+    },
+    {
+        path: '/Dashboard',
+        component: <Dashboard/>
     }
 ]
 export default routes
